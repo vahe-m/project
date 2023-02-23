@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="codeCSS/calculator.css">
+        <script src="codeJS/calculator.js"></script>
+    </head>
+    <body>
+        <div class="iphone">
+            <div class="display">
+              <div class="display1">
+                <div style="display:flex;position:absolute;margin-top:5px;">
+                  <div class="microphone"></div>
+                  <div class="camera"></div>
+                </div>
+              </div>
+              <div class="div1">
+                <div class="jam" id="time">00:00</div>
+                <div class="wifi">
+                    <i class="fa fa-signal" aria-hidden="true"></i>
+                    <i class="fa fa-wifi" aria-hidden="true"></i>
+                    <i class="fa fa-battery-full" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="calculator">
+
+                <input type="text" class="input" placeholder="0" id="fon1">
+
+                <div class="tver">
+                  <div style="display:flex;justify-content:space-evenly;">
+                    <div class="a1" onclick="fun_AC()">AC</div>
+                    <div class="a1" onclick="fun_c()">c</div>
+                    <div class="a1">%</div>
+                    <div class="a2" onclick="insert('/')">&divide;</div>
+                  </div>
+                  <div style="display:flex;justify-content:space-evenly;margin-top:5px">
+                    <div class="a3" onclick="insert('7')" id="yot">7</div>
+                    <div class="a3" onclick="insert('8')" id="ut">8</div>
+                    <div class="a3" onclick="insert('9')" id="inny">9</div>
+                    <div class="a2" onclick="insert('*')">&times;</div>
+                  </div>
+                  <div style="display:flex;justify-content:space-evenly;margin-top:5px">
+                    <div class="a3" onclick="insert('4')" id="cors">4</div>
+                    <div class="a3" onclick="insert('5')" id="hing">5</div>
+                    <div class="a3" onclick="insert('6')" id="vec">6</div>
+                    <div class="a2" onclick="insert('-')">-</div>
+                  </div>
+                  <div style="display:flex;justify-content:space-evenly;margin-top:5px">
+                    <div class="a3" onclick="insert('1')" id="mek">1</div>
+                    <div class="a3" onclick="insert('2')" id="erku">2</div>
+                    <div class="a3" onclick="insert('3')" id="ereq">3</div>
+                    <div class="a2" onclick="insert('+')">+</div>
+                  </div>
+                  <div style="display:flex;justify-content:space-evenly;margin-top:5px">
+                    <div class="a4" onclick="insert('0')" id="zro">&nbsp0</div>
+                    <div class="a3" onclick="insert('.')" id="ket">.</div>
+                    <div class="a2" onclick="equal('=')">=</div>
+                  </div>
+                </div>
+              </div>
+              <div class="home"></div>
+            </div>
+          </div>
+          
+    </body>
+</html>

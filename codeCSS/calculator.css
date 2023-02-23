@@ -1,0 +1,129 @@
+body{
+    background:#222222
+}
+.iphone{
+    width:200px;
+    height:400px;
+    background-color:#000;
+    border-radius:28px;
+    padding:6px 1px;
+    border:2px solid #F5F5F5;
+    margin: 70px;
+}
+.display{
+    width:188px;
+    height:385px;
+    background-color:#242424;
+    border-radius:25px;
+    margin:0 auto;
+    position:relative
+}
+.display1{
+    width:100px;
+    height:19px;
+    background:#000;
+    border-radius:0 0 30px 30px;
+    left:23%;
+    position:absolute
+}
+.microphone{
+    width:30px;
+    height:3px;
+    background:#191919;
+    margin-left:32px;
+    border-radius:20px
+}
+.camera{
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background:#1B3453;
+    margin-left:8px
+}
+.div1{
+    display:flex;
+}
+.jam{
+    font-size:9px;
+    color:#fff;
+    margin-left:11px;
+    margin-top:5px
+}
+.wifi{
+    color:#fff;
+    margin-left:104px;
+    margin-top:5px;
+    font-size:9px
+}
+.calculator{
+    margin-top:67px
+}
+.input{
+    border:none;
+    text-align:right;
+    width:180px;
+    background:#242424;
+    color:#fff;
+    height:50px;
+    font-size:30px
+}
+.a1{
+    cursor:pointer;
+    width:40px;
+    padding:9px;
+    text-align:center;
+    background:#A5A5A5;
+    border-radius:50%;
+    transition:0.5s
+}
+.a2{
+    cursor:pointer;
+    width:40px;
+    padding:9px;
+    text-align:center;
+    background:#FF9F0A;
+    border-radius:50%;
+    color:#fff;
+    transition:0.5s
+}
+.a3{
+    cursor:pointer;
+    width:40px;
+    padding:9px;
+    text-align:center;
+    background:#333333;
+    border-radius:50%;
+    color:#fff;
+    transition:0.5s
+}
+.a4{
+    cursor:pointer;
+    width:85px;
+    padding:9px;
+    background:#333333;
+    border-radius:30px;
+    color:#fff;
+    transition:0.5s
+}
+.home{
+    width:60px;
+    height:3px;
+    border-radius:20px;
+    background:#fff;
+    margin:20px auto 6px
+}
+.a1:hover{
+    background:#fff
+}
+.a2:hover{
+    background:#fff;
+    color:#000
+}
+.a3:hover{
+    background:#fff;
+    color:#000
+}
+.a4:hover{
+    background:#fff;
+    color:#000
+}
